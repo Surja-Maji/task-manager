@@ -13,7 +13,7 @@ function TodoInput(props) {
       <input
         type="text"
         className="input-box-todo"
-        placeholder="Enter your task"
+        placeholder="Enter your tasks"
         value={inputText}
         onChange={e=>{
             setInputText(e.target.value)
